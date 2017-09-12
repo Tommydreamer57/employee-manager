@@ -537,8 +537,8 @@ In `src/Stage 8/App.js` let's begin by importing our three components. Based on 
 
 ```jsx
 import Header from './components/Header/Header';
-import EmployeeList from './components/EmployeeList/EmployeeList';
-import EmployeeEditor from './components/EmployeeEditor/EmployeeEditor';
+import EmployeeList from './components/EmployeeList';
+import EmployeeEditor from './components/EmployeeEditor';
 ```
 
 Now that `App.js` has access to these components, we can then `render` them. Let's `render` the `Header` component nested inside of the `div` with the `id` of `app`. And `render` the `EmployeeList` and `EmployeeEditor` component nested in the `div` with the `id` of `main-container`.
