@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
-
 import Employee from './models/Employee';
+import EmployeeEditor from ',/components/EmployeeEditor';
+import EmployeeList from './components/EmployeeEditor';
 
-// components
 
 class App extends Component {
-  // constructor
+  constructor() {
+    super()
+    this.state = {
+
+    }
+  }
 
   // selectEmployee
 
@@ -14,10 +19,10 @@ class App extends Component {
   render() {
     return (
       <div id="app">
-        // render Header here
+        <Header />
         <div className="main-container">
-          // render EmployeeList here
-          // render EmployeeEditor
+          <EmployeeList />
+          <EmployeeEditor />
         </div>
       </div>
     )
